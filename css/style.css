@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: rgb(36,36,35);
+    background: linear-gradient(180deg, rgba(36,36,35,1) 0%, rgba(51,53,51,1) 100%);
+    
+}
+
+.menu li{
+    list-style: none;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.menu a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F5CB5C;
+}
+
+.site-title,
+.site-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5CB5C;
+    text-align: center;
+    margin: 2px
+
+}
+
+.site-title:hover {
+    color:white;
+    
+}
+
+.site-subtitle {
+    font-size: small;
+}
