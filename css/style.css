@@ -3,27 +3,44 @@ html, body {
     height: 100%;
 }
 
-body {
-    background: rgb(36,36,35);
-    background: linear-gradient(180deg, rgba(36,36,35,1) 0%, rgba(51,53,51,1) 100%);
-    
+header {
+    background: rgb(255,206,0);
+    background: linear-gradient(90deg, rgba(255,206,0,1) 0%, rgba(255,154,0,1) 100%);   
+    padding: 0;
+    margin: auto;
 }
 
-.menu li{
+
+.botoes li{
     list-style: none;
+    box-sizing: border-box;
     
 }
 
-.menu ul {
+.botoes ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     
     
 }
 
-.menu a {
-    color:white;
+a.btao {
+    color: #242423;
     text-decoration: none;
+    padding: 4px;
+    margin: 0 10px 10px 10px;
+}
+
+.btao {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 a:hover {
@@ -32,8 +49,8 @@ a:hover {
 
 .site-title,
 .site-subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #F5CB5C;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #242423;
     text-align: center;
     margin: 2px
 
